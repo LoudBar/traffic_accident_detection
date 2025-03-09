@@ -8,7 +8,7 @@ model = YOLO("../base.pt")
 model.to("cuda")
 
 model.train(
-    data='data.yaml',
+    data='../data.yaml',
     epochs=100,
     patience=20,
     batch=16,

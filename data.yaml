@@ -1,6 +1,6 @@
-train: /home/loudbar/PycharmProjects/Accident-Detection-and-Notification/ML part/train
-val: /home/loudbar/PycharmProjects/Accident-Detection-and-Notification/ML part/valid
-test: /home/loudbar/PycharmProjects/Accident-Detection-and-Notification/ML part/test
+train: dataset/train
+val: dataset/valid
+test: dataset/test
 
 nc: 1
 names: ['Accident']
